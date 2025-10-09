@@ -4,6 +4,8 @@
 @import 'foundation';
 @import 'motion-ui';
 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
 // Global styles
 @include foundation-global-styles;
 @include foundation-forms;
@@ -63,3 +65,15 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+
+body, #landing-content{
+    height: 100vh;
+}
+body, h1{
+    font-family: 'Instrument', sans-serif;
+}
+#landing-content{
+    display: flex;
+}
