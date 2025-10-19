@@ -1,11 +1,14 @@
 body {
     padding: 0;
     margin: 0;
-    background: #00ff9d;
+   background: rgb(255, 148, 143) ;
+    /*rgb(143, 255, 205);*/
     color: #131313;
     font-family: "JetBrains Mono", monospace;
     overflow-x: hidden;
 }
+
+
 
 p {
     font-size: .9rem;
@@ -52,11 +55,13 @@ a:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    mix-blend-mode: darken;
+    mix-blend-mode: multiply;
 }
 
 #postHero {
-    background: #a5a5a5;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.075);
+    padding: 3.75rem 0;
     #prefooter-img{
         padding: 2rem;
   background: white;
@@ -95,7 +100,6 @@ a:focus {
 
 #footer{
     background: black;
-    border-bottom: 1px solid #00ff9d;
     .menu{
         background: black;
         a{
