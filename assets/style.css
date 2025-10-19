@@ -4,6 +4,7 @@ body {
     background: #00ff9d;
     color: #131313;
     font-family: "JetBrains Mono", monospace;
+    overflow-x: hidden;
 }
 
 p {
@@ -55,8 +56,11 @@ a:focus {
 }
 
 #postHero {
-    background: #dbdbdb;
-    padding: 3rem 0;
+    background: #a5a5a5;
+    #prefooter-img{
+        padding: 2rem;
+  background: white;
+    }
 
     ul.menu-footer {
         left: -1.25rem;
@@ -64,7 +68,7 @@ a:focus {
 
         li {
             font-weight: 200;
-            font-size: .9rem;
+            font-size: .8rem;
             margin-bottom: .5rem;
 
             a {
@@ -88,3 +92,21 @@ a:focus {
     }
 
 }
+
+#footer{
+    background: black;
+    border-bottom: 1px solid #00ff9d;
+    .menu{
+        background: black;
+        a{
+        color: white;
+        padding: 1.5rem 0;
+    }    
+    a:hover, a:focus{
+        color:white !Important;
+    }
+    }
+}
+
+
+
