@@ -1,12 +1,52 @@
 body {
     padding: 0;
     margin: 0;
-    background:#00ff9d;
+    background: #00ff9d;
+    color: #131313;
+    font-family: "JetBrains Mono", monospace;
+}
+
+p {
+    font-size: .9rem;
+    margin: .75rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "JetBrains Mono", monospace;
+}
+
+h2 {
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+a {
+    text-decoration: underline !important;
+    color: black;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+#p5-canvas-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
 }
 
 #imgCanvas {
-    width: 400px;
-    height: 200px;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,3 +54,37 @@ body {
     mix-blend-mode: darken;
 }
 
+#postHero {
+    background: #dbdbdb;
+    padding: 3rem 0;
+
+    ul.menu-footer {
+        left: -1.25rem;
+        position: relative;
+
+        li {
+            font-weight: 200;
+            font-size: .9rem;
+            margin-bottom: .5rem;
+
+            a {
+                padding-left: 0;
+            }
+        }
+    }
+    ul.no-bullet {
+        left: 0;
+        position: relative;
+
+        li {
+            font-weight: 200;
+            font-size: .9rem;
+            margin-bottom: .5rem;
+
+            a {
+                padding-left: 0;
+            }
+        }
+    }
+
+}
