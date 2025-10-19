@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-   background: rgb(255, 148, 143) ;
+    background: rgb(255, 148, 143);
     /*rgb(143, 255, 205);*/
     color: #131313;
     font-family: "JetBrains Mono", monospace;
@@ -46,6 +46,7 @@ a:focus {
     width: 100vw;
     height: 100vh;
     position: relative;
+    mix-blend-mode: multiply;
 }
 
 #imgCanvas {
@@ -55,16 +56,16 @@ a:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    mix-blend-mode: multiply;
 }
 
 #postHero {
-    border-top: 1px solid rgba(0,0,0,0.2);
-    background: rgba(0,0,0,0.075);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.075);
     padding: 3.75rem 0;
-    #prefooter-img{
+
+    #prefooter-img {
         padding: 2rem;
-  background: white;
+        background: white;
     }
 
     ul.menu-footer {
@@ -81,6 +82,7 @@ a:focus {
             }
         }
     }
+
     ul.no-bullet {
         left: 0;
         position: relative;
@@ -98,20 +100,60 @@ a:focus {
 
 }
 
-#footer{
+#footer {
     background: black;
-    .menu{
+
+    .menu {
         background: black;
-        a{
-        color: white;
-      padding: 1.75rem 0;
-      font-size: 0.9rem;
-    }    
-    a:hover, a:focus{
-        color:white !Important;
-    }
+
+        a {
+            color: white;
+            padding: 1.75rem 0;
+            font-size: 0.9rem;
+        }
+
+        a:hover,
+        a:focus {
+            color: white !Important;
+        }
     }
 }
 
 
 
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+    #p5-canvas-container {
+        transform: scale(0.75);
+    }
+    #postHero   {
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+    .menu.expanded {
+        padding: 3rem 0 6rem;
+        li{
+            min-width: 100%;
+        }
+        a{
+            padding: 1rem 0 !important;
+        }
+    }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    #p5-canvas-container {
+        transform: scale(1);
+    }
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
