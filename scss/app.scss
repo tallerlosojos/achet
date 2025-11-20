@@ -340,6 +340,9 @@ section {
 
     main {
         padding: 3.75rem 0;
+        .cell .grid-x .cell{
+            margin-bottom: 2rem;
+        }
     }
 }
 
