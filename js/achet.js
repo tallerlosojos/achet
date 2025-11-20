@@ -22,6 +22,7 @@ function preload() {
 }
 function draw() {
     frameRate(floor(random(1,3)));
+    //noLoop();
     for (let x = 0; x < amountX; x++) {
         for (let y = 0; y < amountY; y++) {
             state[x][y] = int(random(0, 8));
