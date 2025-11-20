@@ -21,7 +21,7 @@ function preload() {
     logotipo = loadImage("data/ltipo1.png");
 }
 function draw() {
-    frameRate(floor(random(1,6)));
+    frameRate(floor(random(1,3)));
     for (let x = 0; x < amountX; x++) {
         for (let y = 0; y < amountY; y++) {
             state[x][y] = int(random(0, 8));

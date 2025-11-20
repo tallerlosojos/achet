@@ -1,73 +1,87 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css"
-    crossorigin="anonymous">
+  <title>Inicio</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
     rel="stylesheet">
 
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+    rel="stylesheet">
+
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
-  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="achet.js"></script>
+  <script language="javascript" type="text/javascript" src="js/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="js/achet.js"></script>
   <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
-  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Foundation -->
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
-<body>
-  
+<body class="index">
 
-      <div id="p5-canvas-container"></div>
-
-
-  <section id="postHero">
-    <div class="grid-c">
-      <div class="grid-x grid-margin-x align-middle">
- 
-        <div class="small-10 small-offset-1 medium-6 medium-offset-1 cell">
-          <p>Realizar, auspiciar, promover y asesorar todo tipo de estudios, proyectos y programas de carácter cultural.
-            Apoyar la promoción y desarrollo de actividades culturales, a través de trabajos, estudios, intercambio de
-            tecnologías, cursos de perfeccionamiento de profesores, alumnos o personas interesadas en la expresión de la
-            cultura.</p>
-        </div>
-        <div class="small-10 small-offset-1 medium-3 medium-offset-1   cell">
-          <h2>Novedades</h2>
-          <ul class="menu-footer">
-            <li><b>[19.10.2021]</b><a href="">La precariedad laboral, modernidad y modernización capitalista</a></li>
-            <li><b>[06.03.2022]</b><a href="">Precariedad laboral y derecho del trabajo</a></li>
-            <li><b>[29.03.2025]</b><a href="">¿Nuevo modelo sindical en el nuevo escenario nacional y global? El caso de
-                los trabajadores de Unilever</a></li>
-          </ul>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <div id="footer">
+  <nav>
     <div class="grid-x">
-      <div class="small-10 small-offset-1 cell">
-        <ul class="menu expanded">
-      <li><a href="#">+56 9 2384 8712</a></li>
-      <li><a href="#">contacto@ach-et.cl</a></li>
-      <li><a href="https://tallerlosojos.github.io/achet-blog/" target="_blank">Blog</a></li>
-    </ul>
+      <div class="small-10 small-offset-1 medium-12 medium-offset-0 cell">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="page-achet.html">ACHET</a></li>
+          <li><a href="page-miembros.html">Miembros</a></li>
+          <li><a href="page-areas.html">Áreas de Trabajo</a></li>
+          <li><a href="page-incidencia.html">Incidencia Pública</a></li>
+          <li><a href="page-publicaciones.html">Publicaciones</a></li>
+          <li><a href="">Seminario</a></li>
+          <li><a href="https://tallerlosojos.github.io/achet-blog/" target="_blank">Blog</a></li>
+        </ul>
       </div>
     </div>
-  </div>
+  </nav>
 
-  <!-- Compressed CSS -->
+  <h1 id="p5-canvas-container" title="Asociación Chilena de Estudios del Trabajo"></h1>
 
-  <!-- Compressed JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js"
-    crossorigin="anonymous"></script>
+    <footer>
+        <div class="grid-container">
+            <div class="grid-x grid-margin-x align-middle">
+                <div class="small-10 small-offset-1 medium-6 medium-offset-0 cell">
+                    <h4>ACHET surge en 2025 ante la necesidad de necesidad de crear un espacio permanente de diálogo y reflexión, tras más de una década de colaboración académica de investigadoras e investigadores del trabajo.</h4>
+                    <a href="page-achet.html" class="button secondary large">Saber más</a>
+                </div>
+                <div class="small-10 small-offset-1 medium-3 medium-offset-1  cell">
+                    <h5>Novedades</h5>
+                    <ul class="menu-footer">
+                        <li><b>[19.10.2021]</b><a href="">La precariedad laboral, modernidad y modernización
+                                capitalista</a></li>
+                        <li><b>[06.03.2022]</b><a href="">Precariedad laboral y derecho del trabajo</a></li>
+                        <li><b>[29.03.2025]</b><a href="">¿Nuevo modelo sindical en el nuevo escenario nacional y
+                                global? El caso de
+                                los trabajadores de Unilever</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
+
+
+
+
+
+
+
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="node_modules/what-input/dist/what-input.js"></script>
+  <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
