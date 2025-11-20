@@ -101,14 +101,14 @@ p {
 }
 
 a {
-    text-decoration: underline !important;
+    text-decoration: underline;
     color: black;
 }
 
 a:hover,
 a:focus {
-    text-decoration: none !important;
-    color: black !important;
+    text-decoration: none ;
+    color: black ;
 }
 
 .callout {
@@ -141,7 +141,7 @@ body.index {
         height: 100vh;
         position: relative;
         mix-blend-mode: multiply;
-        background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmecaluxcl.cdnwm.com%2Fblog%2Fimg%2Ftrabajador-ocupado-coordinando-operaciones-logistica-distribucion.1.1.jpg); // url(https://images.pexels.com/photos/13311393/pexels-photo-13311393.jpeg);
+        background:$primary-color;
   background-size: cover;
   margin-bottom: 0;
     }
@@ -153,7 +153,7 @@ body.index {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        mix-blend-mode: screen;
+        mix-blend-mode: multiply;
     }
 }
 
@@ -183,13 +183,19 @@ nav#nav-desk {
     background-color: $secondary-color;
     position: fixed;
     z-index: 1;
-    padding: .5rem 1rem .75rem 0;
     display: inline-block;
     border-bottom: 1px solid $black;
     border-right: 1px solid $black;
 
     li {
         font-size: .9rem;
+    }
+    li#menu-instagram{
+        font-size: 1.4rem;
+  border-left: 1px solid $black;
+  a{
+    padding: .5rem 1rem .7rem 1rem;
+  }
     }
 }
 
