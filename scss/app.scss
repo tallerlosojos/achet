@@ -474,16 +474,16 @@ footer {
                 .cell:nth-child(3),
                 .cell:first-child {
                     img {
-                        border-radius: 0 10px 10px 0;
-                        border-left: none;
+                        border-radius: 10px;
+                        border-left: 1px solid $black;
                     }
                 }
 
                 .cell:nth-child(2),
                 .cell:last-child {
                     img {
-                        border-radius: 10px 0 0 10px;
-                        border-right: none;
+                        border-radius: 10px;
+                        border-right: 1px solid $black;;
                     }
                 }
             }
