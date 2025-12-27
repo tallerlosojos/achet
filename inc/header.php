@@ -36,14 +36,14 @@
     <div class="grid-x">
       <div class="small-10 small-offset-1 medium-12 medium-offset-0 cell">
         <ul class="menu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="page-achet.html">ACHET</a></li>
-          <li><a href="page-miembros.html">Miembros</a></li>
-          <li><a href="page-areas.html">Áreas de Trabajo</a></li>
-          <li><a href="page-incidencia.html">Incidencia Pública</a></li>
-          <li><a href="page-publicaciones.html">Publicaciones</a></li>
-          <li><a href="page-seminario.html">Congreso</a></li>
-          <li><a href="https://tallerlosojos.github.io/achet-blog/" target="_blank">Blog</a></li>
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="page-achet.php">ACHET</a></li>
+          <li><a href="page-miembros.php">Miembros</a></li>
+          <li><a href="page-areas.php">Áreas de Trabajo</a></li>
+          <li><a href="page-incidencia.php">Incidencia Pública</a></li>
+          <li><a href="page-publicaciones.php">Publicaciones</a></li>
+          <li><a href="page-seminario.php">Congreso</a></li>
+          <li><a href="https://achetchile.cl/blog/" target="_blank">Blog</a></li>
           <li id="menu-instagram"><a target="_blank" href="https://instagram.com/achetchile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                 viewBox="0 0 24 24">
                 <path
@@ -60,13 +60,13 @@
       <span></span>
       <span></span>
       <ul id="menu-movil">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="page-achet.html">ACHET</a></li>
-        <li><a href="page-miembros.html">Miembros</a></li>
-        <li><a href="page-areas.html">Áreas de Trabajo</a></li>
-        <li><a href="page-incidencia.html">Incidencia Pública</a></li>
-        <li><a href="page-publicaciones.html">Publicaciones</a></li>
-        <li><a href="page-seminario.html">Congreso</a></li>
+        <li><a href="index.php">Inicio</a></li>
+        <li><a href="page-achet.php">ACHET</a></li>
+        <li><a href="page-miembros.php">Miembros</a></li>
+        <li><a href="page-areas.php">Áreas de Trabajo</a></li>
+        <li><a href="page-incidencia.php">Incidencia Pública</a></li>
+        <li><a href="page-publicaciones.php">Publicaciones</a></li>
+        <li><a href="page-seminario.php">Congreso</a></li>
         <li><a href="https://tallerlosojos.github.io/achet-blog/" target="_blank">Blog</a></li>
         <li id="menu-instagram"><a target="_blank" href="https://instagram.com/achetchile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
               viewBox="0 0 24 24">
@@ -76,44 +76,3 @@
       </ul>
     </div>
   </nav>
-
-
-  <div id="p5-canvas-container" title="Asociación Chilena de Estudios del Trabajo"></div>
-
-  <footer>
-    <div class="grid-container">
-      <div class="grid-x grid-margin-x align-middle">
-        <div class="small-10 small-offset-1 medium-6 medium-offset-0 cell">
-          <h4>ACHET surge en 2025 ante la necesidad de necesidad de crear un espacio permanente de diálogo y reflexión,
-            tras más de una década de colaboración académica de investigadoras e investigadores del trabajo.</h4>
-          <a href="page-achet.html" class="button large">Saber más</a>
-        </div>
-        <div class="small-10 small-offset-1 medium-3 medium-offset-1  cell">
-          <h5>Novedades</h5>
-          <ul class="menu-footer">
-            <li><b>[19.10.2021]</b><a href="">La precariedad laboral, modernidad y modernización
-                capitalista</a></li>
-            <li><b>[06.03.2022]</b><a href="">Precariedad laboral y derecho del trabajo</a></li>
-            <li><b>[29.03.2025]</b><a href="">¿Nuevo modelo sindical en el nuevo escenario nacional y
-                global? El caso de
-                los trabajadores de Unilever</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-
-
-
-
-
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-  <script src="node_modules/what-input/dist/what-input.js"></script>
-  <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
-  <script src="js/app.js"></script>
-</body>
-
-</html>
